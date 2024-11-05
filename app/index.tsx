@@ -12,12 +12,14 @@ import {
 } from '~/components/ui/card';
 import { Button } from '~/components/ui/button';
 import { Ionicons } from '@expo/vector-icons';
-import { useNavigation, useRouter } from 'expo-router';
+import { Stack, useNavigation, useRouter } from 'expo-router';
+import LoginWithGoogle from '~/components/authen/loginWithGoogle';
 
-export default function welcome() {
+export default function index() {
   const router = useRouter();
   return (
     <LinearGradient colors={['#FFF2D5', '#e3cbff']}>
+      <Stack.Screen options={{ headerShown: false }} />
       <View className='h-full w-full flex items-center justify-center '>
         <Card className='w-full max-w-sm'>
           <CardHeader>
@@ -32,18 +34,7 @@ export default function welcome() {
           </CardHeader>
           <CardContent className='flex items-center justify-center p-4 rounded-md'>
             <View className='flex-col gap-4 w-full'>
-              {/* Google Login Button */}
-              <Button className='flex flex-row items-center justify-center w-full bg-white border border-gray-300 rounded-md p-3'>
-                <Ionicons
-                  name='logo-google'
-                  size={20}
-                  color='black'
-                  className='mr-2'
-                />
-                <Text className='text-black font-medium font-QuickSand'>
-                  Đăng nhập trở thành Ôm
-                </Text>
-              </Button>
+              <LoginWithGoogle></LoginWithGoogle>
 
               <View className='flex flex-row items-center justify-center mt-1 mb-1'>
                 <View className='flex-grow h-px bg-gray-300' />

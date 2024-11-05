@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1085782559162",
+    "project_id": "exeproject-cb319",
+    "storage_bucket": "exeproject-cb319.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085782559162:android:9a6c7764eec66392c9b583",
+        "android_client_info": {
+          "package_name": "com.example.paintingstoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085782559162-sil65ejajk619k4upsulip5m9rkr82eo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paintingstoreapp",
+            "certificate_hash": "46f4c3715a939fed3c02ae6e89360bbb7f435867"
+          }
+        },
+        {
+          "client_id": "1085782559162-iptlm50738tf28sf6eh35u887q90ju3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIyMXNoF7SstmBCQyS4sx0OiWM2aGh0XM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085782559162-iptlm50738tf28sf6eh35u887q90ju3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
